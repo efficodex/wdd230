@@ -2,23 +2,20 @@
 
 header {
   background-color: #F18D9E;
-  display:grid;
-  padding:15px;
-  grid-template-columns: 1fr , 1fr;
-  gap: 10px;
   font-family: 'Playfair Display', serif;
+  padding: 20px;
+  display:flex;
   justify-content: center;
 }
 
 img {
-   grid-column: 1/2; 
-   width: 90px;
-   margin: auto 0;
-   
+   width: 70px;
+   margin: auto 0;  
 }
 
 h1{
-    grid-column: 2/3;
+   display: inline;
+   font-size: 1.5rem;
 }
 
 nav{
