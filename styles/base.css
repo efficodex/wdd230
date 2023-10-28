@@ -1,16 +1,20 @@
+
+
 header {
   background-color: #F18D9E;
   display:grid;
-  padding:25px;
+  padding:15px;
   grid-template-columns: 1fr , 1fr;
   gap: 10px;
   font-family: 'Playfair Display', serif;
+  justify-content: center;
 }
 
 img {
    grid-column: 1/2; 
-   width: 70px;
+   width: 90px;
    margin: auto 0;
+   
 }
 
 h1{
@@ -63,6 +67,7 @@ h3{
     background-color: #F18D9E;
     margin: 0;
     padding: 20px;
+    text-align: center;
 }
 
 
@@ -80,3 +85,9 @@ section ul a{
     line-height: 30px;
 }
 
+footer{
+    background-color: #5BC8AC;
+    padding: 30px;
+    text-align: center;
+    font-size: large;
+}
