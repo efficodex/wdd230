@@ -1,0 +1,45 @@
+header{
+    text-align: center;
+    color: #444C5C;
+}
+
+main{
+    color: #444C5C;
+}
+
+.white{
+    color: white;
+    font-size: larger;
+    text-align: center;
+    padding: 10px;
+}
+
+.red{
+    background-color: #E05858;
+    width: 100px;
+    height: 50px;
+}
+
+.blue{
+    background-color: #1A405F;
+    width: 100px;
+    height: 50px;
+}
+
+.orange{
+    background-color: #daa805;
+    width: 100px;
+    height: 50px;
+}
+
+.letter{
+    background-color: #444C5C;
+    width: 100px;
+    height: 50px;
+}
+
+.rectangle{
+    border: 2px solid #daa805;
+}
+
+.tittle
