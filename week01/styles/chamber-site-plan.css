@@ -5,6 +5,12 @@ header{
 
 main{
     color: #444C5C;
+    text-align: center;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
 }
 
 .white{
@@ -40,6 +46,29 @@ main{
 
 .rectangle{
     border: 2px solid #daa805;
+    max-width: 500px;
+    min-width: 200px;
+   
 }
 
-.tittle
+.typography{
+    display:flex;
+    justify-content: center;
+}
+
+h1{
+    font-family: 'Vesper Libre', serif;
+}
+
+
+h2,h3,p{
+    font-family: 'Brygada 1918', serif;
+}
+
+
+footer{
+    background-color: #1A405F;
+    color: white;
+    padding: 50px;
+    text-align: center;
+}
