@@ -8,6 +8,33 @@ header {
   justify-content: center;
 }
 
+#mode{
+    cursor:pointer;
+    position: absolute;
+	top:1rem;
+    left:1rem;
+    
+}
+
+#menu {
+	font-size: 1.5rem;
+	border: 1px solid rgba(0,0,0,.3);
+	padding: 3px 7px 6px;
+	background-color: #eee;
+	color: #000;
+    position: absolute;
+	top:0.5rem;
+    right:0.5rem;
+}
+
+#menu::before {
+	content: "☰";
+}
+
+#menu.open::before {
+	content: "x";
+}
+
 img {
    width: 70px;
    margin: auto 0;  
@@ -21,13 +48,20 @@ h1{
 nav{
     background-color: #5BC8AC;
    margin: 0 auto;
+   display: none;
 
 }
+
+nav.open{
+    display:block;
+}
+
 
 nav ul{
     list-style-type: none;
     padding: 0;
     margin-top: 0;
+    
 }
 
 nav a{
@@ -47,6 +81,7 @@ nav a{
 main{
     max-width: 350px;
     margin: 0 auto;
+    
 }
 
 h2{
@@ -65,7 +100,9 @@ h3{
     margin: 0;
     padding: 20px;
     text-align: center;
+    color: #000;
 }
+
 
 
 section ul{
@@ -76,11 +113,20 @@ section ul{
 
 section ul a{
     text-decoration: none;
-    color: black;
     font-family:  serif;
     font-size: large;
     line-height: 30px;
+    
 }
+
+.modeGlow{
+    color: #000;
+}
+
+.modeDark{
+    color:white;
+}
+
 
 footer{
     background-color: #5BC8AC;
