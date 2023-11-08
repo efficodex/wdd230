@@ -3,6 +3,10 @@
         font-size: 2rem;
     }
 
+    nav{
+        display: block;
+    }
+    
     nav ul{
         display: flex;
     }
