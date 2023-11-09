@@ -1,0 +1,24 @@
+header {
+    display: flex;
+    justify-content: center;
+}
+
+.logo img{
+    width: 60vw;
+}
+
+#hamburgerBtn {
+    font-size: 1.5rem;
+	border: 1px solid rgba(0,0,0,.3);
+	padding: 3px 7px 6px;
+	background-color: #eee;
+	color: #000;
+    position: absolute;
+	top:0.5rem;
+    right:0.5rem;
+}
+
+#heroImage{
+    width: 100%;
+   
+}
