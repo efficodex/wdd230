@@ -25,11 +25,22 @@
         <picture class="logo">
             <img src="images/logo-chamber-lima.jpg" alt="logo of website">
         </picture>
-        <button id="hamburgerBtn">&#9776</button>
+
+        <div class="social">
+            <a href="https://facebook.com" target="_blank">
+                <img src="images/facebook.png" alt="fb icon">
+            </a>
+        
+            <a href="https://instagram.com" target="_blank">
+                <img src="images/instagram.png" alt="instagram icon">
+            </a>
+        </div>
+
+        <button id="hamburgerBtn"></button>
     </header>
 
     <nav>
-        <ul id="primaryNav">
+        <ul id="navigation">
             <li><a href="">Home</a></li>
             <li><a href="">Join</a></li>
             <li><a href="">Discover</a></li>
@@ -40,28 +51,59 @@
 
     <main>
         <div id="hero">
-            
-            <picture><img id="heroImage" src="images/hero-imagen-chamber.jpg" alt="lima city"></picture>
+            <!--  -->
+            <div id="hero-box">
+                <picture><img id="hero-img" src="images/hero-imagen-chamber.jpg" alt="lima city"></picture>
+            </div>  
             <div id="hero-msg">
                 <h1 id="title-hero">Expand in Lima</h1>
                 <h4>be part of the business network</h4>
-                <div class="joinBtn">
-                    <button>Join us</button>
-                </div>
+                <a class='join' href="https://facebook.com">Join Us</a>
+                
             </div>
         </div>
 
-        <section class="spotlights">
+        <section class="events">
+            <div class="rectangle">
+                <h2>Events</h2>
+                <h3>Masterclass</h3>
+                <p>4pm</p>
+            </div>
+            
 
         </section>
 
         <section class="weather">
+            <div class="rectangle">
+                <h2>Weather</h2>
+                <p>32 °C</p>
+            </div>
+            
 
         </section>
 
-        <section class="event">
+        
+        <h2 class="spot">Member Spotlights</h2>
+        <div  id="spotlights" class="spot">
+            <div class="spotlight">
+                <h3>Company A</h3>
+                <p>asdfd@gmail.com</p>
+                <p>1656485456</p>
+            </div>
+            <div class="spotlight">
+                <h3>Company B</h3>
+                <p>asdfd@gmail.com</p>
+                <p>1656485456</p>
+            </div>
+            <div class="spotlight">
+                <h3>Company C</h3>
+                <p>asdfd@gmail.com</p>
+                <p>1656485456</p>
+            </div>
 
-        </section>
+        </div>
+
+
         
         
     </main>
@@ -69,27 +111,21 @@
 
     <footer>
 
-        <p>Lima Chamber of Commerce (01)555-5555</p>
         
+        <div>
+            <h4>Lima <br>Chamber of Commerce</h4>
+        </div>
+         
+        <div>
 
-        <div class="social">
-            <a href="https://facebook.com" target="_blank">
-                <img src="images/facebook.png" alt="fb icon">
-            </a>
-            <a href="https://twitter.com" target="_blank">
-                <img src="images/twitter.png" alt="twitter icon">
-            </a>
-            <a href="https://instagram.com" target="_blank">
-                <img src="images/instagram.png" alt="instagram icon">
-            </a>
+            <p>limachamber@email.com<br>(01)555-5555</p>
         </div>
 
-        <p>&copy; 2023 - Lima Chamber of Commerce Project WDD 230: Web Frontend Development - Alexandra Fernandez</p>
+        <div>
+            <p>&copy; 2023 - Lima Chamber of Commerce Project WDD 230 - Alexandra Fernandez</p>
         <p id="lastModified"></p>
-
-
-
-
+        </div>
+        
     </footer>
 
     <script src="scripts/home-page.js"></script>

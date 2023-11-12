@@ -1,6 +1,11 @@
 header {
     display: flex;
-    justify-content: center;
+    justify-content: left;
+    align-items: center;
+}
+
+.social img{
+    border-radius: 50%;
 }
 
 .logo img{
@@ -9,16 +14,101 @@ header {
 
 #hamburgerBtn {
     font-size: 1.5rem;
-	border: 1px solid rgba(0,0,0,.3);
-	padding: 3px 7px 6px;
-	background-color: #eee;
-	color: #000;
+	border: 1px solid #E05858;
+	padding: 5px 9px 6px;
+	background-color: #E05858;
+	color: white;
     position: absolute;
-	top:0.5rem;
+	top:1rem;
     right:0.5rem;
+    border-radius: 50%;
 }
 
-#heroImage{
+#hamburgerBtn::before{
+    content: "☰"
+}
+
+#hamburgerBtn.open::before {
+	content: "X";
+}
+
+nav{
+    background-color: white;
+   margin: 0 auto;
+   display: none;
+
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav a{
+    display: block;
+    text-decoration: none;
+    color: #1A405F;
+    text-align: center;
+    padding: 10px;
+    font-size: large;
+    
+}
+
+nav.open{
+    display: block;
+}
+
+#hero{
+    position: relative;
+}
+
+#hero-box {
+    overflow: hidden; /* Evita que el contenido flote fuera del contenedor */
+
+}
+#hero-box img{
     width: 100%;
-   
+    opacity: 0.9;
+}
+
+#hero-msg{
+    background-color: #1A405F;
+    position: absolute;
+    top: 50%; /* Ajusta la posición vertical según tus necesidades */
+    left: 50%; /* Ajusta la posición horizontal según tus necesidades */
+    transform: translate(-50%, -50%);
+    text-align: center; /* Centra el texto horizontalmente */
+    color: white; /* Cambia el color del texto según tu diseño */
+    opacity: 0.7;
+    padding: 5px;
+}
+.join {
+    background-color: #FFB745;
+    font-size: x-large;
+    text-decoration: none;
+    color: black;
+    padding: 1px;
+    opacity: 1;
+}
+.rectangle{
+    text-align: center;
+    padding: 5px;
+    border:2px solid #1A405F;
+    margin: 20px;
+
+}
+
+#spotlights{
+    display: flex;
+    justify-content: center
+}
+.spotlight{
+    border-radius: 50%;
+    background-color: #E05858;
+    padding: 7px 5px 6px;
+    text-align: center;
+    width: 150px;
+
+}
+footer{
+    background-color: #1A405F;
 }
