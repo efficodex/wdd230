@@ -22,7 +22,7 @@
 </head>
 <body>
     <header>
-        <img src="images/alexandra-me01.jpg" alt="a picture of me">
+        <img src="images/alexandra-me01.webp" alt="a picture of me" loading="lazy">
         <h1>Alexandra Ruiz F.</h1>
         <button alt="hamburguer button" id="menu"></button>
         
@@ -45,7 +45,7 @@
         <div class="hero">
             <picture>
                 <source srcset="images/hero-small.webp" media="(max-width:400px )">
-                <img src="images/hero-large.webp" alt="lima peru temple" width="960" ></img>
+                <img src="images/hero-large.webp" alt="lima peru temple" width="960" loading="lazy" ></img>
             </picture>
             <div class="hero-msg">
                 <p>Lima Perú Temple</p>
@@ -64,12 +64,18 @@
                 <li>Week 07: <a href="" class="modeGlow"></a></li>
             </ul>
         </section>
-        <section class="card">
+        <section class="card center">
             <h3>Information</h3>
             <p id="ubicacion"></p>
             <p id="temperature"></p>
-            <p id="pageVisit"></p>
+            <p><span class="label">Number of Visits: </span><span class="visits"></span></p>
         </section>
+
+        <div class="iframe">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31222.114178882417!2d-77.00582045!3d-11.990806399999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c57eeac869e7%3A0xf3d6d906ccf55785!2sSan%20Juan%20de%20Lurigancho%2015419!5e0!3m2!1ses-419!2spe!4v1700195865693!5m2!1ses-419!2spe" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        </div>
+        
     </main>
     <footer>
         <p>&copy;<span id="year"></span> Alexandra Emperatriz Fernandez Alzamora - Peru</p>
@@ -78,5 +84,6 @@
 
     <script src="scripts/getDates.js"></script>
     <script src="scripts/home-page.js"></script>
+    <script src="scripts/countVisit.js"></script>
 </body>
 </html>

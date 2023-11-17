@@ -15,14 +15,15 @@ header {
 
 .hero-msg{
     background-color: #E6D72A;
-    padding: 5px;
-    width: 150px;
-    font-size: medium;
+    padding: 2px;
+    width: 100px;
+    font-size:small;
     border-radius: 70%;
     text-align: center;
     position: absolute;
-    top: 15rem;
-    left: 10rem;
+    top: 7rem;
+    left: 2rem;
+    color: #000;
 }
 
 #mode{
@@ -110,7 +111,14 @@ h2{
     border: 1px solid rgb(162, 158, 158);
     margin: 20px;
     box-shadow: 1px 2px 1px 4px rgba(0, 0, 0, 0.5);
+    
 }
+
+.center{
+    text-align: center;
+}
+    
+
 
 h3{
     background-color: #F18D9E;

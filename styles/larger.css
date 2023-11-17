@@ -29,7 +29,8 @@
         padding: 5px;
         width: 150px;
         font-size: medium;
-        
+        top: 15rem;
+        left: 10rem;
     }
 
     h2{
@@ -38,6 +39,15 @@
 
     #menu{
         display: none;
+    }
+
+    iframe{
+        width: 100%;
+    }
+
+    .iframe{
+        justify-content: center;
+        grid-column: 1/3;
     }
 
     
