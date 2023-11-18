@@ -211,5 +211,7 @@ footer{
   .section-msg-1 h2{
     color: #1A405F;
   }
+
+  .hover:hover {box-shadow: 0 0 50px #333;}
   
   
