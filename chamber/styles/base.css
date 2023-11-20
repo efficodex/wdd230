@@ -192,7 +192,9 @@ footer{
     
 }
 
-  #images{
+
+
+#images{
     grid-column: 2/3;
     display: flex;
     flex-direction: column;
@@ -210,8 +212,25 @@ footer{
 
   .section-msg-1 h2{
     color: #1A405F;
+    
   }
+
+  #sidebar{
+    background-color: #FFB745;
+    padding: 50px;
+    border-radius: 30%;
+    margin: 40px;
+    text-align: center;
+    font-size: large;
+}
 
   .hover:hover {box-shadow: 0 0 50px #333;}
   
-  
+#discover-h1{
+    font-size: 2rem;
+    grid-column: 1/2;
+    margin: 20px;
+    text-align: center;
+    color: #333;
+    font-family: "Lato";
+}
