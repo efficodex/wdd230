@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form - Alexandra Emperatriz Fernandez Alzamora - WDD 230 - Web Frontend Development</title>
+    <meta name="description" content="WDD 230 - Web Frontend Development, Alexandra Emperatriz Fernandez Alzamora course assignment portal">
+    <meta name="author" content="Alexandra Emperatriz Fernandez Alzamora">
+    <link rel="shortcut icon" href="images/favicon-ale.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/form.css">
+    <link href="https://fonts.googleapis.com/css2?family=Brygada+1918&family=Lato&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="images/alexandra-me01.webp" alt="a picture of me" loading="lazy">
+        <h1>Alexandra Ruiz F.</h1>
+        <button alt="hamburguer button" id="menu"></button>
+        
+        <div id="mode">
+            😎
+        </div>
+        
+    </header>
+
+    
+    <nav>
+        <ul class="navigation">
+            <li><a href="" class="active">Home</a></li>
+            <li><a href="">Chamber</a></li>
+            <li><a href="">Site Plan</a></li>
+            <li><a href="">Form</a></li>
+        </ul>
+    </nav>
+   
+    <main>
+        <form action="record.html" method="get">
+            <div>
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+    
+            <div>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" pattern="[a-zA-Z0-9]{8,}" required>
+            </div>
+    
+            <div>
+                <label for="confirmPassword">Confirm Password:</label>
+                <input type="password" id="confirmPassword" name="confirmPassword" pattern="[a-zA-Z0-9]{8,}" required
+                    oninput="checkPasswordMatch()">
+                <p id="passwordMatchMessage"></p>
+            </div>
+    
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required pattern="[a-zA-Z0-9._%+-]+@byui\.edu$"
+                    title="Please enter a valid email address">
+            </div>
+    
+            <div>
+                <label for="pageRating">Page Rating:</label>
+                <input type="range" id="pageRating" name="pageRating" min="1" max="10" step="1" oninput="updateRating()">
+                <span id="ratingValue">1</span>
+            </div>
+    
+            <div>
+                <button id="formBtn" type="submit">Submit</button>
+            </div>
+        </form>
+    </main>
+
+
+    <footer>
+        <p>&copy;<span id="year"></span> Alexandra Emperatriz Fernandez Alzamora - Peru</p>
+        <p id="lastModified"></p>
+    </footer>
+
+    <script src="scripts/getDates.js"></script>
+    <script src="scripts/home-page.js"></script>
+    <script src="scripts/countVisit.js"></script>
+    <script src="scripts/form.js"></script>
+    
+</body>
+</html>
