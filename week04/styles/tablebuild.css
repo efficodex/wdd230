@@ -1,0 +1,32 @@
+tbody tr:nth-child(odd) {
+	background-color: pink;
+}
+ 
+table{
+    margin: 10px auto;
+    border-collapse: collapse;
+}
+
+th,td{
+    border:1px solid black;
+    padding: 3px 3px;
+}
+
+tr:first-child th{
+    background-color: black;
+    color: white;
+}
+
+th:first-child{
+    background-color: black;
+}
+
+td{
+    text-align: center;
+}
+
+caption {
+    padding: 10px;
+    caption-side: bottom;
+    color: gray;
+  }
