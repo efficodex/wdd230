@@ -81,4 +81,20 @@
         margin-top: 60px;
     }
 
+    #join{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .membership {
+        border: 1px solid #ccc;
+        padding: 10px;
+        margin-bottom: 20px;
+      }
+
+
+    }
+
+
+
 }

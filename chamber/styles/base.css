@@ -232,5 +232,76 @@ footer{
     margin: 20px;
     text-align: center;
     color: #333;
-    font-family: "Lato";
+    font-family: 'Brygada 1918', serif;
 }
+
+
+
+
+:root {
+    --form-background: #e6e6e6;
+    --form-padding: 20px;
+    --label-color: #333;
+    --input-background: #fff;
+    --input-border: 1px solid #ccc;
+    --input-padding: 8px;
+    --button-background: #E05858;
+    --button-color: #fff;
+    --button-padding: 10px;
+}
+
+#form {
+    font-family: 'Brygada 1918', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    
+   
+}
+
+
+form {
+    background-color: var(--form-background);
+    padding: var(--form-padding);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+form div {
+    margin-bottom: 16px;
+}
+
+label {
+    display: block;
+    color: var(--label-color);
+    margin-bottom: 8px;
+}
+
+input,
+#btnJoin-1 {
+    width: 100%;
+    padding: var(--input-padding);
+    border: var(--input-border);
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 4px;
+    margin-bottom: 12px;
+}
+
+#btnJoin-1 {
+    background-color: var(--button-background);
+    color: var(--button-color);
+    padding: var(--button-padding);
+    cursor: pointer;
+}
+
+#description{
+    width: 280px;
+
+}
+
+#btnJoin-1:hover {
+    background-color: #FFB745;
+}
+
