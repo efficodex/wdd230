@@ -325,3 +325,27 @@ input,
     padding: 10px;
     margin-bottom: 20px;
   }
+
+  #mainThankyou{
+
+    display: flex;
+    justify-content: center;
+    background-color: #ccc;
+    
+  }
+
+  #thankyou{
+    max-width: 400px;
+    border: 3px solid #1A405F;
+    font-family: 'Brygada 1918', serif;
+    margin: 30px;
+    padding: 30px;
+    background-color: white;
+    
+    
+  }
+
+  #thankyou p::first-letter{
+    color: #E05858;
+    font-size: 2rem;
+  }
