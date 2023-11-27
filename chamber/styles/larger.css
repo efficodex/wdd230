@@ -86,15 +86,50 @@
         grid-template-columns: 1fr 1fr;
     }
 
-    .membership {
-        border: 1px solid #ccc;
+    #tableInformation {
+        display: block;
+        grid-column: 2/3;
+        width: 100%;
+        border-collapse: collapse;
+        font-family: 'Brygada 1918', sans-serif;
+        padding-top: 50px;
+    }
+    
+    #tableInformation th, #tableInformation td {
         padding: 10px;
-        margin-bottom: 20px;
-      }
+        text-align: center;
+        border: 1px solid #1A405F;
+    }
+    
+    #tableInformation th {
+        background-color: #1A405F;
+        color: #fff;
+    }
+    
+    #tableInformation td {
+     
+        color: black;
+    }
+    
+    #tableInformation tr:nth-child(even) {
+        background-color: #c6c6c6;
+    }
+    
+    
+    
+    tbody #tableInformation tr:nth-child(odd) {
+        background-color: white;
+    }
 
-
+    #informationMembership{
+        display: none;
     }
 
 
 
-}
+
+   
+
+    }
+
+    

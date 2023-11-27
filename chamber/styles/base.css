@@ -305,3 +305,18 @@ input,
     background-color: #FFB745;
 }
 
+#tableInformation{
+    display: none;
+}
+
+
+#informationMembership{
+    display: block;
+    grid-column: 2/3;
+    padding: 20px;
+}
+.membership {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
