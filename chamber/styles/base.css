@@ -39,6 +39,11 @@ nav{
 
 }
 
+nav a:hover{
+    background-color: #E05858;
+    color: #fff;
+}
+
 nav ul{
     list-style-type: none;
 }
