@@ -1,0 +1,36 @@
+#cards{
+    display: grid;
+    grid-template-columns:  repeat(auto-fit, minmax(320px, 1fr));
+    -webkit-box-shadow: 0px 0px 64px -17px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 64px -17px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 64px -17px rgba(0,0,0,0.75);
+    background-color: whitesmoke;
+    
+   
+
+}
+
+section{
+    background-color: #b3b1f5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px;
+    border: 2px solid #19315F;
+}
+
+h1,h2{
+    color: #19315F;
+    text-align: center;
+}
+
+img{
+    width: 80%;
+    height: 80%;
+    margin: 10px;
+}
+
+p{
+    margin-top: 1.5px;
+    margin-bottom: 1.5px;
+}
