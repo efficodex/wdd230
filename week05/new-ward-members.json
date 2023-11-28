@@ -1,0 +1,23 @@
+{
+    "familyName": "Ruiz Fernandez",
+    "arrivalWard": "27/11/2023",
+    "numberPeople": "3",
+    "visitedBishop": true,
+    "members":[
+        {   
+            "name":"Angello",
+            "gender":"male",
+            "birthday":"12/07/92"
+        },
+        {   
+            "name":"Ale",
+            "gender":"female",
+            "birthday":"01/03/1995"
+        },
+        {   
+            "name":"Lyam",
+            "gender":"male",
+            "birthday":"29/04/2021"
+        }
+    ]
+}
