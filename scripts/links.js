@@ -18,10 +18,8 @@ async function getLinks() {
     weeks.forEach((weekObj, index) => {
         const liElement = document.createElement('li');
         const aElement = document.createElement('a');
-        const weekNumber = index + 1; // Adding 1 because week numbers usually start from 1
-
-        aElement.textContent = weekObj.week;
-        aElement.href = '#' + weekNumber; // You can customize the href as needed
+        
+        liElement.textContent = weekObj.week;
 
         liElement.id = 'numberWeek';
         liElement.appendChild(aElement);
@@ -34,8 +32,9 @@ async function getLinks() {
             weekObj.links.forEach(linkObj => {
                 const subListItem = document.createElement('li');
                 const subListLink = document.createElement('a');
-                subListLink.href = baseURL + linkObj.url;
-                subListLink.textContent = linkObj.title;
+                subListLink.href = linkObj.url;
+                subListLink.textContent = linkObj.title + "  |  ";
+                subListLink.classList = 'modeGlow';
 
                 subListItem.appendChild(subListLink);
                 subList.appendChild(subListItem);
