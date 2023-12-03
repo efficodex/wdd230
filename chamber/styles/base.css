@@ -349,3 +349,34 @@ input,
     color: #E05858;
     font-size: 2rem;
   }
+/* directory members */
+.grid div section {
+    display: block;
+    background-color: white;
+    text-align: center;
+    border-bottom: 2px solid grey;
+    margin-bottom: 50px;
+    padding-bottom: 5px;
+}
+.grid div section img {
+    width: 100px;
+}
+.grid div section a {
+    color: blue;
+}
+
+.list div section{
+    display: flex;
+    flex-direction: column;
+	grid-template-columns: 2fr 1fr 1fr;
+	margin: 0;
+	padding: 0.25rem;
+    margin-bottom: 10px;
+    background-color: white;
+}
+.list div section:nth-child(even) {
+    background-color: rgb(87, 87, 146);
+}
+.nameCompany {
+    display: none;
+}
