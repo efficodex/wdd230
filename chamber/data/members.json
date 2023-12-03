@@ -1,0 +1,60 @@
+{
+    "companies": [
+      {
+        "name": "Company A",
+        "address": "123 Street, City X",
+        "phone": "123-456-7890",
+        "website": "http://www.companyA.com",
+        "image": "images/A.webp",
+        "membership_level": "gold"
+      },
+      {
+        "name": "Company B",
+        "address": "456 Avenue, City Y",
+        "phone": "987-654-3210",
+        "website": "http://www.companyB.com",
+        "image": "images/B.webp",
+        "membership_level": "silver"
+      },
+      {
+        "name": "Company C",
+        "address": "789 Plaza, City Z",
+        "phone": "456-789-0123",
+        "website": "http://www.companyC.com",
+        "image": "images/C.webp",
+        "membership_level": "platinum"
+      },
+      {
+        "name": "Company D",
+        "address": "321 Road, City W",
+        "phone": "789-012-3456",
+        "website": "http://www.companyD.com",
+        "image": "images/D.webp",
+        "membership_level": "no fee"
+      },
+      {
+        "name": "Company E",
+        "address": "567 Street, City V",
+        "phone": "012-345-6789",
+        "website": "http://www.companyE.com",
+        "image": "images/E.webp",
+        "membership_level": "gold"
+      },
+      {
+        "name": "Company F",
+        "address": "890 Avenue, City U",
+        "phone": "234-567-8901",
+        "website": "http://www.companyF.com",
+        "image": "images/F.webp",
+        "membership_level": "silver"
+      },
+      {
+        "name": "Company G",
+        "address": "234 Plaza, City T",
+        "phone": "345-678-9012",
+        "website": "http://www.companyG.com",
+        "image": "images/G.webp",
+        "membership_level": "platinum"
+      }
+    ]
+  }
