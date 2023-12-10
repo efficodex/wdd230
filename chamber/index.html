@@ -74,10 +74,34 @@
 
             </section>
 
+
             <section class="weather">
                 <div class="rectangle">
                     <h2>Weather</h2>
-                    <p>32 °C</p>
+                    <div id="divWeather">
+                        <img id="weather-icon" src="" alt="">
+                        <p><span id="current-temp"></span></p>
+                        <figcaption></figcaption>
+                    </div>
+
+                    <table id="forecastTable" class="weather-table">
+                        <caption>
+                            3 days forecast
+                        </caption>
+                        <thead> 
+                            <tr>
+                                <th colspan="3">TEMPERATURE FORECAST 2023</th>
+                            </tr>
+                            <tr>
+                                <th class="day1"></th><th class="day2"></th><th class="day3"></th>
+                            </tr>
+                            <tbody>
+                                <tr>
+                                    <td class="forecast1"></td><td class="forecast2"></td><td class="forecast3"></td>
+                                </tr>
+                            </tbody>
+                        </thead>
+                    </table>
                 </div>
                 
 
@@ -86,20 +110,14 @@
             
             <h2 id="spot-h2" class="spot">Member Spotlights</h2>
             <div  id="spotlights" class="spot">
-                <div class="spotlight">
-                    <h3>Company A</h3>
-                    <p>asdfd@gmail.com</p>
-                    <p>1656485456</p>
+                <div class="spotlight" id="spotlight1">
+                    
                 </div>
-                <div class="spotlight">
-                    <h3>Company B</h3>
-                    <p>asdfd@gmail.com</p>
-                    <p>1656485456</p>
+                <div class="spotlight" id="spotlight2">
+                    
                 </div>
-                <div class="spotlight">
-                    <h3>Company C</h3>
-                    <p>asdfd@gmail.com</p>
-                    <p>1656485456</p>
+                <div class="spotlight" id="spotlight3">
+                    
                 </div>
 
             </div>
@@ -130,5 +148,6 @@
     </footer>
 
     <script src="scripts/home-page.js"></script>
+    <script src="scripts/forecast.js"></script>
 </body>
 </html>

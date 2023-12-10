@@ -1,11 +1,7 @@
 
 @media screen and (min-width: 500px){
 
-    header{
-
-        justify-content: space-around;
-
-    }
+    
 
     .logo img{
     width: 30vw;
@@ -31,7 +27,8 @@
     #index-chamber{
         display: grid;
         grid-template-columns: 70% 30%;
-        grid-template-rows: 1fr 1fr;
+        grid-template-rows: 1fr 2fr;
+       
     }
 
     #hero{
@@ -42,13 +39,23 @@
     section .events{
         grid-column: 2/3;
         grid-row: 1/2;
+        
     }
 
     section .weather{
         grid-column: 2/3;
         grid-row: 2/3;
+        
 
     }
+
+    .rectangle{
+        height: 99%;
+    }
+
+    
+
+
 
     
 

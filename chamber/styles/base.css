@@ -97,29 +97,73 @@ nav.open{
 }
 .rectangle{
     text-align: center;
-    padding: 5px;
-    border:2px solid #E05858;
-    margin: 2px;
-    height: 200px;
-    width: 200px;
-    border-radius: 30%;
-    background-color: white;
+    border:2px solid rgb(242, 168, 168);
+    background-color: white
     
 }
 
 .rectangle h2{
-    color: #E05858;
+    color: #1A405F;
 }
 
 section{
     width: 100%;
-    display: flex;
-    justify-content: center;
-    background-color: #E05858;
-    flex-wrap: wrap;
-    align-content: center;
     
+    background-color: white;
 }
+
+section .events{
+    height: 100px;
+}
+
+section .weather{
+    height: 300px;
+
+}
+
+#divWeather{
+    margin-bottom: 20px;
+}
+
+#forecastTable {
+    grid-row: 2;
+    grid-column: 1;
+    margin: auto auto;
+    border: thin solid rgba(0,0,0,0.5);
+    box-shadow: 0 0 10px hsl(0,0%,50%);
+    border-collapse: collapse;
+    max-height: 200px;
+}
+#forecastTable caption {
+    padding: 10px;
+    caption-side: bottom;
+    color: black;
+    /* color: hsla(150,50%,30%,1); */
+    font-size: .85rem;
+}
+#forecastTable thead tr:first-child {
+    background-color: #1A405F;
+    color:white;
+}
+#forecastTable th,#forecastTable td {
+    padding: 7px 15px;
+    border: 1px solid hsla(0,0%,33%,0.3);
+}
+#forecastTable thead tr:nth-child(2) {
+    background-color:  #ccc;
+    font-size: larger;
+}
+#forecastTable td {
+    text-align: center;
+}
+#forecastTable tbody tr:nth-child(odd) {
+    background-color: hsl(0,0%,93%,1);
+}
+#forecastTable tbody tr:nth-child(even) {
+    background-color: hsl(0,50%,93%,1);
+}
+
+
 #spot-h2{
     text-align: center;
     color: #1A405F;
